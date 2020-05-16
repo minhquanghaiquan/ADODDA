@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding:0;
+}
+.contact1 {
+    font-family: 'DM Mono', monospace;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(5rem,1fr));
+    background: #F8F8FF;
+}
+.contact-text {
+    padding-top: 5rem;
+    padding-right: 7rem;
+    line-height: 2rem;
+    padding-left: 8rem;
+    margin-bottom: 0;
+}
+.contact-text >p:nth-child(1) {
+    color: #ffA500;
+}
+.contact-text > h2 {
+    margin-bottom: 2rem;
+    position: relative;
+    margin-left: 0;
+}
+.contact-text > h2::before {
+    content: '';
+    width: 2rem;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top:30px ;
+} 
+.contact-text .contact1-input { 
+    margin-top: 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.contact-text .contact1-input input { 
+    padding: 0.5rem 1rem;
+    box-shadow: 1px 1px rgba(0, 0, 0,0.2);
+}
+.contact-text .contact1-input label { 
+    padding: 0.14rem 1rem;
+    position: absolute;
+    color: white;
+    background: #ffA500;
+    margin-left:0;
+}
+
+.contact2 {
+    font-family: 'DM Mono', monospace;
+    /* padding-left: 8rem;
+    padding-right: 8rem; */
+    padding-top: 5rem;
+    /* padding-bottom: 5rem; */
+    background: rgb(46, 41, 41);
+    color: white;
+}
+.contact2 .contact2-text1 {
+    text-align: center;
+    padding: 1rem 2rem;
+    line-height: 2rem;
+}
+.contact2 .contact2-text1 > h1 {
+    color: #ffA500;
+    letter-spacing: 0.8rem;
+    margin-bottom: 2rem;
+}
+.contact2 .contact2-text1 >p:nth-child(2){
+    font-size: 0.8rem;
+}
+.contact2 .contact2-text1 .contact2-input{
+    margin-top: 2rem;
+}
+.contact2 .contact2-text1 .contact2-input input {
+    padding: 0.3rem 1rem;
+    margin-bottom: 2rem;
+}
+.contact2 .contact2-text1 .contact2-input i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.contact2 .contact2-text1 .contact2-icon a {
+    margin: 0 1rem;
+    color: white;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: 1000ms;
+}
+.contact2 .contact2-text1 .contact2-icon a:hover {
+    border-color: #ffA500;
+    color: #ffA500;
+}
+.contact2 .contact2-text2 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right:0 ;
+    background: black;
+    width: 100%;
+    font-size: 0.75rem;
+    opacity: 50%;
+    margin-bottom: 0;
+}
+.contact-map {
+    padding-right: 8rem;
+    margin-bottom: 0;
+}
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* @media (max-width: 612px) {
+    .contact-text {
+        padding-right: 2rem;
+    }
+} */
+/* @media (max-width: 420px) {
+    .contact-text {
+        padding-right: 2rem;
+    }
+    .contact1 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+} */
+@media (max-width: 976px) {
+    .contact-map {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .contact1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/* @media (max-width: 493px) {
+    .contact-text {
+        padding-left: 4rem;
+        padding-top: 4rem;
+    }
+} */
+@media (max-width: 420px) {
+    .contact-text {
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+    .contact-text .contact1-input input { 
+        padding: 0.5rem 0.2rem;
+        box-shadow: 1px 1px rgba(0, 0, 0,0.2);
+    }
+    .contact-text .contact1-input label { 
+        padding: 0.14rem 1rem;
+        position: absolute;
+        color: white;
+        background: #ffA500;
+        margin-left:0;
+    }
+}
