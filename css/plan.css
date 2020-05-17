@@ -20,12 +20,12 @@
     color: #FFA500;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 .plan-text h2 {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 .plan .plan-wrapper {
     display: flex;
@@ -45,14 +45,14 @@
 .plan-iteam-header {
     padding: 2rem 4rem;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1rem;
     background: rgb(48, 36, 36);
     color: white;
     transition: 1000ms;
 }
 .plan-iteam-header img {
-    width: 2.7rem;
-    height: 2.2rem;
+    width: 2.5rem;
+    height: 2.0rem;
     color: white;
 }
 .plan-iteam-header:hover {
@@ -60,7 +60,7 @@
 }
 .plan-iteam-content {
     padding: 2rem 4rem 2rem;
-    line-height: 2rem;
+    line-height: 1.2rem;
 }
 .plan-iteam button {
     margin-left: 4rem;
@@ -97,5 +97,14 @@
     .plan {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+@media (max-width: 1066px) {
+    .plan-iteam-content {
+        padding: 2rem 2rem 2rem;
+        line-height: 1rem;
+    }
+    .plan-iteam button {
+        margin-left: 2rem;
     }
 }

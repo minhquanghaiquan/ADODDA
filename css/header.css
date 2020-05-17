@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: content-box;
 }
+button {
+    outline: none !important;
+    cursor: pointer;
+}
 
 header {
     background-image: url(../Images/background2.png);

@@ -151,3 +151,7 @@
 .glider figure {
     display: inline-block;
 }
+.glider {
+    overflow-x: hidden;
+}
+
